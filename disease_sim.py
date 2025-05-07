@@ -72,6 +72,8 @@ class App:
     self.graph_canvas = FigureCanvasTkAgg(fig, master=self.root)
     self.graph_canvas.draw()
     self.graph_canvas.get_tk_widget().pack()
+
+    #idk brother
   
   def visualize_graph(self):
     print("Visualizing graph...")
